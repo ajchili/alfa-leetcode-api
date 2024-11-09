@@ -24,6 +24,12 @@ const query = `#graphql
                 }
                 hasSolution
                 hasVideoSolution
+                exampleTestcases
+                codeSnippets {
+                    lang
+                    langSlug
+                    code
+                }
             }
         }
 }`;
