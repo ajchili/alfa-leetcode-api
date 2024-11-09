@@ -105,6 +105,11 @@ interface Submission {
 interface Question {
   content: string;
   companyTagStats: string[];
+  codeSnippets: Array<{
+    lang: string;
+    langSlug: string;
+    code: string;
+  }>;
   difficulty: Difficulty;
   dislikes: number;
   exampleTestcases: {}[];

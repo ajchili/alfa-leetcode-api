@@ -46,6 +46,7 @@ export const formatQuestionData = (data: SelectProblemData) => ({
   likes: data.question.likes,
   dislikes: data.question.dislikes,
   similarQuestions: data.question.similarQuestions,
+  codeSnippets: data.question.codeSnippets,
 });
 
 export const formatProblemsData = (data: ProblemSetQuestionListData) => ({
@@ -53,4 +54,3 @@ export const formatProblemsData = (data: ProblemSetQuestionListData) => ({
   count: data.problemsetQuestionList.questions.length,
   problemsetQuestionList: data.problemsetQuestionList.questions,
 });
-
